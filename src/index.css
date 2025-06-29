@@ -1,0 +1,31 @@
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+span{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  background: linear-gradient(45deg, #ffffff, #ffffff);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent; color: transparent;
+  display: inline-block;
+  text-shadow: 0 0 8px #edf1f5;
+}
+
+.hover-nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.card-hover {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 1rem 2rem rgba(255, 255, 255, 0.15); /* Light shadow on dark bg */
+}
+
+
+
