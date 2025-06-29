@@ -94,7 +94,7 @@ export default function Projects() {
                     <i className="bi bi-box-arrow-up-right me-1"></i>Live
                   </a>
                   <a
-                    href="https://github.com/1Vidhyasagar/ai_movie_server"
+                    href="https://github.com/1Vidhyasagar/ai_assistant_chat"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn btn-outline-dark btn-sm rounded-pill px-3 shadow-sm"
